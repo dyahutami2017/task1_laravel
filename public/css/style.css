@@ -1,5 +1,5 @@
 body {
-    
+     
     background-image: url('./Untitled-2.svg');
     background-size:cover;
     background-repeat: no-repeat;
@@ -7,24 +7,26 @@ body {
   }
   
   .FormField{
-    width: 320px;
-    height: 420px;
+    width: 400px;
+    height: 430px;
     /* background: :#000; */
     /* color: #fff; */
-    top:50%;
-    left:75%;
+    top: 25%;
+    left:57%;
     position: absolute;
-    transform: translate(-50%,-50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 40px 30px;
+    box-shadow: 0 .20rem .20rem rgba(0,0,0,0.2),
+    0 0 .09rem rgba(0,0,0,0.2);
+    border-radius: 6px;
   }
   
   h1{
-    
+    font-family: 'Raleway';
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     color: 000000;
-  
+    margin-bottom: 40px
   }
   
   .FormField p{
@@ -37,16 +39,16 @@ body {
     margin-bottom: 10%;
     border: none;
     
+    
   
   }
   
   .FormField input[type="text"], input[type="email"], input[type="tel"]{
-    border:1;
-    border-bottom: 1px solid black;
+    
+    border-bottom: 1px solid rgb(78, 70, 116);
     background: transparent;
-    /* outline: none; */
-    color: black;
     font-size: 16px;
+    font-family: 'Raleway'
   
   }
   .FormField__Button {
@@ -60,5 +62,14 @@ body {
     font-weight: 500;
     margin-top: 20px;
     float: right;
-    margin-bottom: 10px;
+    font-family: 'Raleway'
   }
+ 
+  .logo{
+    background-image: url("./logo.png");
+    width :200px;
+    height :70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    }
