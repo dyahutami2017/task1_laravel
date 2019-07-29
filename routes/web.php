@@ -18,3 +18,4 @@ Route::get('/', function () {
 
 Route::post('/store','formController@store');
 Route::get('/data','formController@show');
+Route::get('/data/cari','formController@cari');

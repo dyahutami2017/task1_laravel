@@ -25,4 +25,14 @@ class formController extends Controller
             return view('show',['user' => $user]);
             
         }
+
+        public function cari(Request $request){
+            $cari=$request->cari;
+
+            $user=DB::table('identitas')
+            ->where('nama','like',"%".$cari."%")
+            ->paginate();
+
+            return view('show',['user' => $user]);
+        }
 }

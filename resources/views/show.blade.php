@@ -62,6 +62,15 @@ tr:hover {
 	
 	
 	<br/>
+	<form action='/data/cari' method='GET'>
+	<div class='form-row align-items-center'>
+	
+		<input class='form-control col-md-2' type='text' name ='cari' placeholder='Ketikkan Nama' value='{{old("cari")}}'>
+		<div class="col-auto">
+		<input class='btn btn-primary' type='submit' value='Cari'>
+		</div>
+		</div>
+		</form>
 	<br/>
 
 	<table class="table">
