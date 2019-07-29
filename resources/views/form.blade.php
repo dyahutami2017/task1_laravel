@@ -12,9 +12,9 @@
       <h1>Isian Form</h1>
       <form action="/store" method="post">
       {{csrf_field()}}
-        <input type="text" name="nama" placeholder="Nama Lengkap"/>
-        <input type="email" name="email" placeholder="Email"/>
-        <input type="tel" name="telepon" placeholder="Nomor HP"/>
+        <input type="text" required="required" name="nama" placeholder="Nama Lengkap"/>
+        <input type="email" required="required" name="email" placeholder="Email"/>
+        <input type="tel" required="required" name="telepon" placeholder="Nomor HP"/>
         <br>
         <input class="FormField__Button" type="submit" name="" value="Kirim">
         
