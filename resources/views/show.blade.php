@@ -82,6 +82,7 @@ tr:hover {
 		</thead>
 		@endforeach
 	</table>
+	{{$user->links()}}
     <a href="/">Kembali</a>
 	</div>
 </body>

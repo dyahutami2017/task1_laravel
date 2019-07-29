@@ -20,7 +20,7 @@ class formController extends Controller
         }
 
         public function show(){
-            $user = DB::table('identitas')->get();
+            $user = DB::table('identitas')->paginate(10);
     
             return view('show',['user' => $user]);
             
