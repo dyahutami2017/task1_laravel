@@ -8,7 +8,7 @@ body {
   
   .FormField{
     width: 400px;
-    height: 430px;
+    height: 450px;
     /* background: :#000; */
     /* color: #fff; */
     top: 25%;
@@ -35,16 +35,14 @@ body {
   }
   
   .FormField input{
-    width:100%;
+    
     margin-bottom: 10%;
     border: none;
     
-    
-  
   }
   
   .FormField input[type="text"], input[type="email"], input[type="tel"]{
-    
+    width:100%;
     border-bottom: 1px solid rgb(78, 70, 116);
     background: transparent;
     font-size: 16px;
@@ -52,6 +50,7 @@ body {
   
   }
   .FormField__Button {
+    width:100%;
     background-color: #52C4B9;
     color: white;
     border: none;
@@ -73,3 +72,14 @@ body {
     background-size: 100%;
     margin-left: auto;
     }
+
+  .FormField__label{
+   font-family: 'Raleway'
+    }
+  .FormField__checkbox{
+  background-color: #eee;
+  }
+  .FormField__checkbox input:checked{
+      background-color: #2196F3;
+    
+  }

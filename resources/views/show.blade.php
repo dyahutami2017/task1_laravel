@@ -2,14 +2,19 @@
 <html>
 <head>
 	<title>Promo Privatq</title>
-	
+	<link rel="stylesheet" type="text/css" href="{{ asset('/css/style.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.min.css') }}">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<style type="text/css">
+
 	body{
-		background-color:#52C4B9;
+		background-image: url('bcg_2.svg')
+    	background-size:cover;
+    	background-repeat: no-repeat;
+    	font-family: sans-serif;
 		
 	}
+
 	h1{
 		text-align:center;
 		font-family:'Raleway';
