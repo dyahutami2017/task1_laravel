@@ -1,11 +1,8 @@
 body{
-    background-image: url('./bcg_2.svg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    font-family: sans-serif;
-    
+    background-image: url('./bcg_2.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
 }
-
 h1{
     text-align:center;
     font-family:'Raleway';
@@ -14,19 +11,18 @@ h1{
 
 table{
     width:100%;
-    
     padding:5px;
     margin:auto;
     background: white;
-border-radius:3px;
-border-collapse: collapse;
-height: 100%;
-margin: auto;
-max-width: 600px;
-padding:5px;
-width: 100%;
-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-animation: float 5s infinite;
+    border-radius:3px;
+    border-collapse: collapse;
+    height: 100%;
+    margin: auto;
+    max-width: 600px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
 }
 
 th {
