@@ -4,18 +4,19 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-
+use App\identitas;
 class formController extends Controller
 {
 
     public function store(Request $request){
         
-        DB::table('identitas')->insert([
-            'nama' => $request -> nama,
-            'email' => $request -> email,
-            'telepon' => $request -> telepon,
-            'level' => $request -> check,
-        ]);
+        // DB::table('identitas')->insert([
+        //     'nama' => $request -> nama,
+        //     'email' => $request -> email,
+        //     'telepon' => $request -> telepon,
+        //     'level' => $request -> check,
+        //])
+        $user=identitas::all();
 
         return redirect('/data');
         }
