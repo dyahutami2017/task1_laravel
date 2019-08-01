@@ -27,10 +27,9 @@
 		</div>
 		</form>
 	<br/>
-
 	<table class="table">
 		<thead class="thead-black">
-		<tr>
+		<tr class="up">
 			<th>Nama</th>
 			<th>Email</th>
 			<th>Telepon</th>
