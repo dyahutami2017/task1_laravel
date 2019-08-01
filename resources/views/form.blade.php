@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">b 
+    <meta charset="utf-8">
     <title>Promo Privatq</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('/css/style.css') }}"> 
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">   
@@ -19,7 +19,7 @@
         <input class="FormField__Button" type="submit" name="" value="Kirim">
         <div class="container">
           <form>
-        <label class="FormField__label"><input class="FormField__checkbox"  type="checkbox" value="none" name="check" checked/>Jadilah penerima pertama</label>
+        <label class="FormField__label"><input class="FormField__checkbox"  type="checkbox" value="1" name="check" checked/>Jadilah penerima pertama</label>
       </form>  
       </div>
         

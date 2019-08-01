@@ -13,7 +13,8 @@ class formController extends Controller
         DB::table('identitas')->insert([
             'nama' => $request -> nama,
             'email' => $request -> email,
-            'telepon' => $request -> telepon
+            'telepon' => $request -> telepon,
+            'level' => $request -> check,
         ]);
 
         return redirect('/data');
