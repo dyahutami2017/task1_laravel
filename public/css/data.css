@@ -12,18 +12,13 @@ h1{
 }
 
 table{
-    /* width:100%;
+    width:100%;
     padding:5px;
-    margin:auto; */
+    margin:auto;
     justify-content: center;
     background: white;
     border-radius:3px;
-    /* border-collapse: collapse; */
     height: 100%;
-    margin: auto;
-    max-width: 1000px;
-    padding:5px;
-    /* width: 100%; */
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     animation: float 5s infinite;
 }
@@ -49,11 +44,15 @@ border-top: 1px solid #22262e;
 tr.up {
 text-align: center;
 }
-.form-row{
-justify-content: center; 
-}
+
 a{
 justify-content: center;
 }
 
+.opo{
+    position: relative;
+    width: 100%;
+    
+    padding-left: 15px;
+}
 
