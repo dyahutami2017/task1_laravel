@@ -24,3 +24,4 @@ Route::post('/upload/proses','uploadController@proses_upload');
 Route::get('/upload/hapus/{id}','uploadController@hapus');
 Route::get('/promo','showPromoController@show');
 Route::get('/promo/hapus/{id}','uploadController@hapus');
+Route::get('/export','formController@export');

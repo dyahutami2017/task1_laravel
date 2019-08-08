@@ -23,6 +23,7 @@
 				<div class="col">
 					<input class='btn btn-primary' type='submit' value='Cari'>
 				</div>
+			<a class='btn btn-primary' href='/export' target="_blank">Export Excel</a>
 		</div>
 	</form>
 	<br/>

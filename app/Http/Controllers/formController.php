@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\identitas;
+use App\Exports\identitasExport;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Http\Controllers\Controller;
+
 class formController extends Controller
 {
 
@@ -37,7 +41,12 @@ class formController extends Controller
 
             return view('show',['user' => $user]);
         }
-        public function upload(){
-            
+        public function index(){
+            $user = identitas::all();
+            return view('show',['user'=>$user]);            
+        }
+
+        public function export(){
+            return Excel::download(new identitasExport, 'identitas.xlsx');
         }
 }
