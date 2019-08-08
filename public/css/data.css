@@ -2,6 +2,7 @@ body{
     background-image: url('./bcg_2.jpg');
     background-size: cover;
     background-repeat:repeat;
+    overflow: auto;     
     
 }
 h1{
@@ -11,7 +12,13 @@ h1{
     margin-bottom: -10px;
     /* margin-top: 50px; */
 }
-
+h2{
+    text-align:center;
+    font-family:'Raleway';
+    padding:30px;
+    margin-bottom: -10px;
+}
+b{font-family: 'Raleway'}
 table{
     width:100%;
     padding:5px;

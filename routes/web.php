@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::post('/store','formController@store');
 Route::get('/data','formController@show');
 Route::get('/data/cari','formController@cari');
+Route::get('/upload','uploadController@upload');
+Route::post('/upload/proses','uploadController@proses_upload');
+Route::get('/upload/hapus/{id}','uploadController@hapus');

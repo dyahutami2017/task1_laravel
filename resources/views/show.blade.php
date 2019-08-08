@@ -45,8 +45,14 @@
 		@endforeach
 	</table>
 	{{$user->links()}}
-
-    <a class="btn-outline-primary btn" href="/">Kembali</a>
+	<div class="row">
+		<div class="col-md-6">
+    		<a class="btn-outline-primary btn" href="/">Kembali</a>
+		</div>
+		<div class="col-md-6 text-right">
+			<a class=" btn-outline-primary btn" href="/upload">Upload File Promo</a>
+		</div>
+	</div>
 </div>
 </div>
 </body>
