@@ -37,4 +37,7 @@ class formController extends Controller
 
             return view('show',['user' => $user]);
         }
+        public function upload(){
+            
+        }
 }
