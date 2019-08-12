@@ -14,13 +14,13 @@ class formController extends Controller
 
     public function store(Request $request){
         
-        // DB::table('identitas')->insert([
-        //     'nama' => $request -> nama,
-        //     'email' => $request -> email,
-        //     'telepon' => $request -> telepon,
-        //     'level' => $request -> check,
-        //])
-        $user=identitas::all();
+        DB::table('identitas')->insert([
+            'nama' => $request -> nama,
+            'email' => $request -> email,
+            'telepon' => $request -> telepon,
+            'level' => $request -> check,
+        ]);
+        //$user=identitas::all();
 
         return redirect('/data');
         }

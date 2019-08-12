@@ -10,6 +10,8 @@ class sendEmailController extends Controller {
     public function index(){
         $send = DB::select('select*from identitas where level=:level',['level'=>1]);
         Mail::to ($send)->send(new SendEmail());
+        
         return "Email telah dikirim";
     }
+    
 }
