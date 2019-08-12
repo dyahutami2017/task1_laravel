@@ -59,6 +59,12 @@
 						@endforeach
 					</tbody>
 				</table>
+				<div class="row">
+					<div class="col-md-6">
+					<a class="btn btn-outline-primary" href="/data">Kembali</a>
+					</div>
+						
+				</div>
 			</div>
 		</div>
 	</div>

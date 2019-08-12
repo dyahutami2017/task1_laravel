@@ -25,3 +25,4 @@ Route::get('/upload/hapus/{id}','uploadController@hapus');
 Route::get('/promo','showPromoController@show');
 Route::get('/promo/hapus/{id}','uploadController@hapus');
 Route::get('/export','formController@export');
+Route::get('/sendemail','sendEmailController@index');

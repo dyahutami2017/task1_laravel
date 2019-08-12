@@ -47,10 +47,13 @@
 	</table>
 	{{$user->links()}}
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-4">
     		<a class="btn-outline-primary btn" href="/">Kembali</a>
 		</div>
-		<div class="col-md-6 text-right">
+		<div class="col-md-4 text-center">
+			<a class=" btn-outline-primary btn" href="/sendemail">Kirim Email</a>
+		</div>
+		<div class="col-md-4 text-right">
 			<a class=" btn-outline-primary btn" href="/upload">Upload File Promo</a>
 		</div>
 	</div>
