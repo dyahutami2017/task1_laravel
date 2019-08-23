@@ -22,7 +22,7 @@ class formController extends Controller
         ]);
         //$user=identitas::all();
 
-        return redirect('/data');
+        return redirect('/');
         }
 
         public function show(){
