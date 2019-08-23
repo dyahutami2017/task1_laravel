@@ -1,7 +1,7 @@
 body{
     background-image: url('./bcg_2.jpg');
     background-size: cover;
-    background-repeat:repeat;
+    background-repeat: no-repeat;
     overflow: auto;     
     
 }
