@@ -19,7 +19,7 @@
         <input class="FormField__Button" type="submit" name="" value="Kirim">
         <div class="container">
           <form>
-        <label class="FormField__label"><input class="FormField__checkbox"  type="checkbox" value="1" name="check" checked/>Jadilah penerima pertama</label>
+        <label class="FormField__label"><input class="FormField__checkbox"  type="checkbox" value="1" name="check" checked/>Subscribe</label>
       </form>  
       </div>
         
